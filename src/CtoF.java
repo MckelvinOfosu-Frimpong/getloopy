@@ -11,7 +11,7 @@ public class CtoF {
         Scanner console = new Scanner(System.in);
 
 
-        System.out.println("Please input your Celsius value to convert to Fahrenheit ");
+        System.out.print("Please input your Celsius value to convert to Fahrenheit: ");
         do {
             if (console.hasNextDouble())
             {
@@ -22,7 +22,7 @@ public class CtoF {
             else
             {
                 trash = console.nextLine();
-                System.out.println("Invalid input: " + trash + " re-run program");
+                System.out.print("Invalid input: " + trash + " type correct a input: ");
             }
         } while(!done);
 
